@@ -19,11 +19,11 @@
     COMPARTIDO Y LIBERADO CON FINES ACADEMICOS 
     ---------------------------------------------------   
 */
-session_start();
-// CONEXION DE SISTEMA CRM -> IMPORTANDO ARCHIVO
-require('../Modelo/conexion.php');
-// CARGANDO MODELO DE EMPLEADOS
-require('../Modelo/mEmpleadosGestiones.php');
+    session_start();
+    // CONEXION DE SISTEMA CRM -> IMPORTANDO ARCHIVO
+    require('../Modelo/conexion.php');
+    // CARGANDO MODELO DE EMPLEADOS
+    require('../Modelo/mEmpleadosGestiones.php');
 $Usuarios=new Empleados();
 // ACC -> ACCION CONTROLADOR {URL} 
 if(isset($_GET['acc']))

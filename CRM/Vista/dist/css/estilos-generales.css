@@ -3,7 +3,7 @@
 	FUENTES GOOGLE FONT DISPONIBLES
 
 	font-family: 'Bowlby One SC', cursive;
-  font-family: 'Exo', sans-serif;
+  /*font-family: 'Exo', sans-serif;*/
 
 
 */
@@ -23,7 +23,7 @@ body{ /*IMPORTANTE TOMAR EN CUENTA, ESTE BODY ES PARA PAGINAS SECUNDARIAS*/
   -moz-overflow-scrolling: touch;
   -o-overflow-scrolling: touch;
   -ms-overflow-scrolling: touch;
-  font-family: 'Exo', sans-serif;
+  /*/*font-family: 'Exo', sans-serif;*/
 }
 
 body.sin-scroll{ /*IMPORTANTE TOMAR EN CUENTA, ESTE BODY ES PARA PAGINAS PRINCIPALES (BIENVENIDA)*/
@@ -39,7 +39,7 @@ body.sin-scroll{ /*IMPORTANTE TOMAR EN CUENTA, ESTE BODY ES PARA PAGINAS PRINCIP
   background: url("../images/banner.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Exo', sans-serif;
+  /*font-family: 'Exo', sans-serif;*/
 }
 
 ::-webkit-scrollbar {
@@ -51,15 +51,15 @@ body.sin-scroll{ /*IMPORTANTE TOMAR EN CUENTA, ESTE BODY ES PARA PAGINAS PRINCIP
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #a51aa8;
+  background: #060d72;
   border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #9921a3;
+  background: #060d72;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: #771e75;
+  background: #060d72;
 }
 ::-webkit-scrollbar-track {
   background: #666666;
@@ -180,7 +180,7 @@ h2.bienvenida_usuario{
 .contenedor_secundario p{
   padding: 0 0 1.7em 0;
   text-align: justify;
-  font-family: 'Exo', sans-serif;
+  /*font-family: 'Exo', sans-serif;*/
 
 }
 
@@ -775,7 +775,7 @@ input[type="text"]{
   font-size: 1.3em;
   border: 5px solid #A4A4A4;
   border-radius: 4%;
-  font-family: 'Exo', sans-serif;
+  /*font-family: 'Exo', sans-serif;*/
 }
 
 input[type="submit"]{
